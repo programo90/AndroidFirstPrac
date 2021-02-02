@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AsyncActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/asyn_text"
+        android:text="AsyncTask"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/asyn_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+
+    <Button
+        android:id="@+id/asyn_start_btn"
+        android:text="start"
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+    <Button
+        android:id="@+id/asyn_cancel_btn"
+        android:text="cancel"
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>

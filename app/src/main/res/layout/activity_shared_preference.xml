@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPreferenceActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sp_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:text="save"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/sp_save_btn"
+        />
+
+    <Button
+        android:text="load"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/sp_load_btn"
+        />
+
+    <Button
+        android:text="selected delete"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/sp_delete_btn"
+        />
+
+    <Button
+        android:text="delete all"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/sp_all_delete_btn"
+        />
+
+</LinearLayout>
