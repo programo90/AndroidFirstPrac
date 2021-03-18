@@ -30,6 +30,7 @@ class SharedPreferenceActivity : AppCompatActivity() {
             val sharedPreference = getSharedPreferences("sp1", Context.MODE_PRIVATE)
             val value = sharedPreference.getString("hello","no data")
             Log.d("key",value.toString())
+
         }
 
         findViewById<Button>(R.id.sp_save_btn).setOnClickListener {
